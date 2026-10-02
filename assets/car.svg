@@ -1,0 +1,198 @@
+<svg width="900" height="450" viewBox="0 0 900 450"
+xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+
+        <linearGradient id="body"
+            x1="0"
+            y1="0"
+            x2="1"
+            y2="1">
+
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="45%" stop-color="#bdbdbd"/>
+            <stop offset="100%" stop-color="#555555"/>
+
+        </linearGradient>
+
+        <linearGradient id="window"
+            x1="0"
+            y1="0"
+            x2="1"
+            y2="1">
+
+            <stop offset="0%" stop-color="#333333"/>
+            <stop offset="100%" stop-color="#080808"/>
+
+        </linearGradient>
+
+    </defs>
+
+
+    <!-- Shadow -->
+
+    <ellipse
+        cx="450"
+        cy="365"
+        rx="320"
+        ry="35"
+        fill="#000000"
+        opacity="0.7"
+    />
+
+
+    <!-- Main Car Body -->
+
+    <path
+        d="
+        M120 310
+        L155 245
+        C175 210 230 190 300 180
+        L370 115
+        C390 95 425 85 470 85
+        L570 85
+        C610 85 645 105 670 135
+        L735 215
+        C760 225 790 250 800 290
+        L815 310
+        L810 335
+        L95 335
+        L100 310
+        Z
+        "
+        fill="url(#body)"
+    />
+
+
+    <!-- Windows -->
+
+    <path
+        d="
+        M315 175
+        L380 115
+        C395 103 420 98 450 98
+        L475 98
+        L475 175
+        Z
+        "
+        fill="url(#window)"
+    />
+
+    <path
+        d="
+        M490 98
+        L565 98
+        C600 98 625 112 650 142
+        L675 175
+        L490 175
+        Z
+        "
+        fill="url(#window)"
+    />
+
+
+    <!-- Side line -->
+
+    <path
+        d="M150 255
+           C320 230 570 230 750 255"
+        fill="none"
+        stroke="#777"
+        stroke-width="6"
+    />
+
+
+    <!-- Front -->
+
+    <path
+        d="M735 215
+           L790 255
+           L800 290
+           L735 290
+           Z"
+        fill="#777"
+    />
+
+
+    <!-- Headlights -->
+
+    <path
+        d="M750 250
+           L795 265
+           L800 285
+           L755 280
+           Z"
+        fill="#eeeeee"
+    />
+
+
+    <!-- Wheels -->
+
+    <circle
+        cx="230"
+        cy="325"
+        r="62"
+        fill="#080808"
+    />
+
+    <circle
+        cx="230"
+        cy="325"
+        r="30"
+        fill="#555"
+    />
+
+    <circle
+        cx="230"
+        cy="325"
+        r="12"
+        fill="#aaa"
+    />
+
+
+    <circle
+        cx="680"
+        cy="325"
+        r="62"
+        fill="#080808"
+    />
+
+    <circle
+        cx="680"
+        cy="325"
+        r="30"
+        fill="#555"
+    />
+
+    <circle
+        cx="680"
+        cy="325"
+        r="12"
+        fill="#aaa"
+    />
+
+
+    <!-- Door -->
+
+    <path
+        d="M495 185
+           L495 285
+           M600 185
+           L625 285"
+        fill="none"
+        stroke="#777"
+        stroke-width="3"
+    />
+
+    <!-- Door handle -->
+
+    <rect
+        x="530"
+        y="210"
+        width="35"
+        height="6"
+        rx="3"
+        fill="#555"
+    />
+
+</svg>
