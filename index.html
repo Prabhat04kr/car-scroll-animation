@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Scroll driven hero animation using HTML, CSS, JavaScript and GSAP">
+
+    <title>Itz Fizz | Scroll Animation</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <!-- Background -->
+        <div class="background-circle circle-1"></div>
+        <div class="background-circle circle-2"></div>
+
+        <!-- Top Navigation -->
+        <nav class="navbar">
+            <div class="logo">ITZ<span>FIZZ</span></div>
+
+            <div class="nav-text">
+                SCROLL TO EXPLORE ↓
+            </div>
+        </nav>
+
+
+        <!-- Main Hero Content -->
+        <div class="hero-content">
+
+            <p class="small-text">CREATIVE DIGITAL EXPERIENCE</p>
+
+            <h1 class="hero-title">
+                W E L C O M E
+                <br>
+                I T Z F I Z Z
+            </h1>
+
+            <p class="hero-description">
+                Experience motion, creativity and technology
+                through a smooth interactive journey.
+            </p>
+
+        </div>
+
+
+        <!-- Car -->
+        <div class="car-container">
+            <img
+                src="assets/car.svg"
+                alt="Animated sports car"
+                class="car"
+            >
+        </div>
+
+
+        <!-- Statistics -->
+        <div class="stats">
+
+            <div class="stat">
+                <h2>85%</h2>
+                <p>Performance</p>
+            </div>
+
+            <div class="stat">
+                <h2>92%</h2>
+                <p>Experience</p>
+            </div>
+
+            <div class="stat">
+                <h2>78%</h2>
+                <p>Innovation</p>
+            </div>
+
+        </div>
+
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <span></span>
+            <p>SCROLL</p>
+        </div>
+
+    </section>
+
+
+    <!-- EXTRA SECTION FOR SCROLLING -->
+    <section class="about">
+
+        <p class="section-label">01 — EXPLORE</p>
+
+        <h2>
+            Motion that responds
+            <br>
+            to your movement.
+        </h2>
+
+        <p class="about-text">
+            This section demonstrates a scroll-driven animation
+            created using vanilla web technologies and GSAP.
+            The visual movement is directly connected to the
+            user's scroll progress.
+        </p>
+
+    </section>
+
+
+    <section class="end-section">
+        <p>THANK YOU FOR EXPLORING</p>
+    </section>
+
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <!-- GSAP ScrollTrigger -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <!-- Our JavaScript -->
+    <script src="index.js"></script>
+
+</body>
+</html>
